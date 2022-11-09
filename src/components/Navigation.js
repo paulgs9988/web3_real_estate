@@ -1,5 +1,6 @@
 import { ethers } from "ethers";
 import logo from "../assets/logo.svg";
+import logo1 from "../assets/logo1.svg";
 
 const Navigation = ({ account, setAccount }) => {
   const connectHandler = async () => {
@@ -25,8 +26,9 @@ const Navigation = ({ account, setAccount }) => {
       </ul>
 
       <div className="nav__brand">
-        <img src={logo} alt="Logo" />
-        <h1>R3AL 3STAT3</h1>
+        <img src={logo1} alt="Logo" />
+        <h1>R3AL</h1>
+        <h1>3STAT3</h1>
       </div>
 
       {account ? (
